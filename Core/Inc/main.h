@@ -60,18 +60,27 @@ void Error_Handler(void);
 #define MPU_ADDR 0b1101000
 #define B1_Pin GPIO_PIN_13
 #define B1_GPIO_Port GPIOC
+#define B1_EXTI_IRQn EXTI15_10_IRQn
 #define USART_TX_Pin GPIO_PIN_2
 #define USART_TX_GPIO_Port GPIOA
 #define USART_RX_Pin GPIO_PIN_3
 #define USART_RX_GPIO_Port GPIOA
-#define LD2_Pin GPIO_PIN_5
-#define LD2_GPIO_Port GPIOA
+#define BCHANGE_Pin GPIO_PIN_6
+#define BCHANGE_GPIO_Port GPIOC
+#define SPI_RST_Pin GPIO_PIN_7
+#define SPI_RST_GPIO_Port GPIOC
+#define BCLEAR_Pin GPIO_PIN_8
+#define BCLEAR_GPIO_Port GPIOC
+#define SPI_DC_Pin GPIO_PIN_9
+#define SPI_DC_GPIO_Port GPIOA
 #define TMS_Pin GPIO_PIN_13
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14
 #define TCK_GPIO_Port GPIOA
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
+#define SPI_CS_Pin GPIO_PIN_6
+#define SPI_CS_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

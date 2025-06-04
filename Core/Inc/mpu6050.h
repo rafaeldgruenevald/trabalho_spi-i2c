@@ -4,6 +4,7 @@
  *  Created on: May 20, 2025
  *      Author: rafae
  */
+#include <stdint.h>
 
 #ifndef INC_MPU6050_H_
 #define INC_MPU6050_H_
@@ -26,10 +27,14 @@
 #define REG_EIXO_X 		59
 #define REG_EIXO_Y 		61
 
-#define SET_ZERO_POINT_Y 3800
-#define SET_ZERO_POINT_X 3000
+#define SET_ZERO_POINT_Y 3900
+#define SET_ZERO_POINT_X -300
+#define MAX_POINT_X 	 800
+#define MIN_POINT_X 	 -1000
+#define MAX_POINT_Y 	 800
+#define MIN_POINT_Y 	 -1000
 
 void mpu6050_init();
-int16_t mpu6050_read_x();
-int16_t mpu6050_read_y();
+uint16_t mpu6050_read_x();
+uint16_t mpu6050_read_y();
 #endif /* INC_MPU6050_H_ */
