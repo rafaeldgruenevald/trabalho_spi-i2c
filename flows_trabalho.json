@@ -1,0 +1,50 @@
+[
+    {
+        "id": "6a409cb40dfce015",
+        "type": "ui_button",
+        "z": "a843b1efce314306",
+        "name": "",
+        "group": "0ea884ad17aba0ef",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Mudar Cor",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "c",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "017b6937705de99a"
+            ]
+        ]
+    },
+    {
+        "id": "0ea884ad17aba0ef",
+        "type": "ui_group",
+        "name": "Controle",
+        "tab": "1fb43918bf6cb713",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1fb43918bf6cb713",
+        "type": "ui_tab",
+        "name": "Pisca",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]
